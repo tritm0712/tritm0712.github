@@ -1,0 +1,39 @@
+table{
+    border-collapse: collapse;
+    width: 80%;
+    height: 250px;
+    margin: 10px auto;
+    border: 1px solid rgb(23, 34, 8)
+}
+
+thead{
+    background-color: rgb(229, 174, 235);
+    font-variant: small-caps;
+}
+
+tbody tr{
+    background-color: aliceblue;
+}
+tbody tr:hover{
+    background-color: lightblue;
+    font-weight: bolder;
+}
+td:hover{
+    background-color: beige;
+
+}
+div{
+    margin-right: 148px;
+    text-align: right;
+}
+input{
+    width: 180px;
+    height: 50px;
+    background-color: orangered;
+    font-weight: bolder;
+    border: none;
+}
+input:hover{
+    color:rgb(238, 225, 240);
+    font-weight: bolder;
+}

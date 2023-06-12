@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form điền thông tin</title>
+        <style>
+            .form{
+                width:400px;
+                margin: 0 auto;
+                padding: 10px;
+                border-radius: 10px;
+                box-shadow: 0 0 5px gray;
+                background-color:azure;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="#" method="post" anctype="multipart/form-data" class="form">
+            Họ và tên: 
+            <input type="text"><br>
+            Số điện thoại:
+            <input type="text"><br>
+            Gmail: 
+            <input type="email"><br>
+            Giới tính: 
+            <label for="">
+                <input type="radio" checked="checked" name="gender"> Nam
+            </label>
+            <label for="">
+                <input type="radio" name="gender"> Nữ
+            </label><br>
+            User Name:<br>
+                <input type="text"><br>
+            New password:<br>
+                <input type="password"><br>
+            Password again:<br>
+                <input type="password"><br>
+            Hình ảnh: <br>
+            <input type="file" value="Choose file"><br>
+            Quốc tịch: <br>
+            <select name="list" id="list">
+                <option value="United States">United States</option>
+                <option value="Việt Nam">Việt Nam</option>
+                <option value="Trung Quốc">Trung Quốc</option>
+                <option value="Thái Lan">Thái Lan</option>
+            </select>
+            <br>
+            Sở thích: <br>
+            <label for=""><input type="checkbox">Thể thao</label>
+            <label for=""><input type="checkbox">Du lịch</label>
+            <label for=""><input type="checkbox">Ẩm thực</label>
+            <label for=""><input type="checkbox">Âm nhạc</label>
+            <label for=""><input type="checkbox">Khác</label>
+            <br>
+            
+            <hr>
+            Ghi chú: <br>
+            <textarea name="ghichu" id="" cols="50" rows="10"></textarea><br>
+            <hr>
+            <input type="submit" value="Đăng ký">
+            <input type="reset" value="Nhập lại">
+        </form>
+    </body>
+</html>
